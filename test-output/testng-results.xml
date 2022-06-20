@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6214" started-at="2022-06-17T16:20:07 IST" finished-at="2022-06-17T16:20:14 IST">
+  <suite name="Default suite" duration-ms="6929" started-at="2022-06-20T12:10:48 IST" finished-at="2022-06-20T12:10:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6214" started-at="2022-06-17T16:20:07 IST" finished-at="2022-06-17T16:20:14 IST">
-      <class name="com.restpractice.toolsqa.GetpagesFromTitle">
-        <test-method status="PASS" signature="getpages()[pri:0, instance:com.restpractice.toolsqa.GetpagesFromTitle@7d0587f1]" name="getpages" duration-ms="6140" started-at="2022-06-17T16:20:07 IST" finished-at="2022-06-17T16:20:14 IST">
+    <test name="Default test" duration-ms="6929" started-at="2022-06-20T12:10:48 IST" finished-at="2022-06-20T12:10:55 IST">
+      <class name="com.authorization.test.BasicAuthenticationCheck">
+        <test-method status="PASS" signature="setup_authenitcation()[pri:0, instance:com.authorization.test.BasicAuthenticationCheck@3fd7a715]" name="setup_authenitcation" is-config="true" duration-ms="646" started-at="2022-06-20T12:10:48 IST" finished-at="2022-06-20T12:10:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getpages -->
-      </class> <!-- com.restpractice.toolsqa.GetpagesFromTitle -->
+        </test-method> <!-- setup_authenitcation -->
+        <test-method status="PASS" signature="authentiation_reuse_check()[pri:0, instance:com.authorization.test.BasicAuthenticationCheck@3fd7a715]" name="authentiation_reuse_check" duration-ms="6226" started-at="2022-06-20T12:10:48 IST" finished-at="2022-06-20T12:10:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authentiation_reuse_check -->
+      </class> <!-- com.authorization.test.BasicAuthenticationCheck -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
